@@ -17,16 +17,16 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("__**Im MentionAll Bot**, I can mention almost all members in group or channel 👻\nClick **/help** for more infomation__\n\n All credits to 👉 @AnjanaMadu✅",
+  await event.reply("__**𝙄𝙢 𝙈𝙚𝙣𝙩𝙞𝙤𝙣𝘼𝙡𝙡 𝘽𝙤𝙩**, 𝙄 𝙘𝙖𝙣 𝙢𝙚𝙣𝙩𝙞𝙤𝙣 𝙖𝙡𝙢𝙤𝙨𝙩 𝙖𝙡𝙡 𝙢𝙚𝙢𝙗𝙚𝙧𝙨 𝙞𝙣 𝙜𝙧𝙤𝙪𝙥 𝙤𝙧 𝙘𝙝𝙖𝙣𝙣𝙚𝙡 👻\nClick **/help** 𝙛𝙤𝙧 𝙢𝙤𝙧𝙚 𝙞𝙣𝙛𝙤𝙢𝙖𝙩𝙞𝙤𝙣.",
                     buttons=(
-                      [Button.url('📣 Channel', 'https://t.me/Tg_Galaxy'),
-                      Button.url('👀 Source', 'https://t.me/Tg_Galaxy')]
+                      [Button.url('📣 𝗖𝗵𝗮𝗻𝗻𝗲𝗹', 'https://t.me/Tg_Galaxy'),
+                      Button.url('➕𝗔𝗱𝗱 𝗠𝗲 𝗚𝗿𝗼𝘂𝗽➕', 'http://t.me/Mentionallbot_Xbot?startgroup=true')]
                     ),
                     link_preview=False
                    )
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mentionall\n__You can use this command with text what you want to mention others.__\n`Example: /mentionall Good Morning!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nBot Cloned Owner @HydraLivegrambot"
+  helptext = "**Help Menu of MentionAllBot**\n\nCommand: /mall\n__You can use this command with text what you want to mention others.__\n`Example: /mall Good Night 🌃!`\n__You can you this command as a reply to any message. Bot will tag users to that replied messsage__.\n\nBot Cloned Owner @HydraLivegrambot"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('📣 Channel', 'https://t.me/Tg_Galaxy'),
@@ -35,7 +35,7 @@ async def help(event):
                     link_preview=False
                    )
   
-@client.on(events.NewMessage(pattern="^/all ?(.*)"))
+@client.on(events.NewMessage(pattern="^/mall ?(.*)"))
 async def mentionall(event):
   if event.is_private:
     return await event.respond("__This command can be use in groups and channels!__")
