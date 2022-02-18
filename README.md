@@ -12,6 +12,6 @@ _**This bot can mention members upto 10,000 in groups and can mention members up
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FHydrayt777%2FMention-All-Bot-Tg.git&envs=API_HASH%2CAPP_ID%2CTOKEN&API_HASHDesc=Get+this+value+from+my.telegram.org%21+Please+do+not+steal.&APP_IDDesc=Get+this+value+from+my.telegram.org%21+Please+do+not+steal.&TOKENDesc=Enter+bot+token.&referralCode=Hydrix)
 
 ### 🎯 Credits and Other
-- [Me](https://github.com/AnjanaMadu) for this Project ;)
+-all credits to [this](https://github.com/AnjanaMadu) guy,  Project ;)
 
 **Do not forget to follow me on Github ✌️**
